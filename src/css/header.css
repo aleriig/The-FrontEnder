@@ -17,7 +17,7 @@
     left: 0;
     right: 0;
     background-color: black;
-    opacity: .5;
+    opacity: .2;
     background: url('../img/simple-pattern-overlay.png') top left repeat;
     z-index: 100; 
 }
