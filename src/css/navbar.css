@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #000033;
+    background-color: var(--dark-color);
     /* barra nav siempre se queda encima */
     z-index: 99;
 }

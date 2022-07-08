@@ -1,0 +1,7 @@
+/* creamos variables para colores, tipografia o tamaño de letra estandar que vayamos a uti lizar */
+:root {
+    --font-size: 16px;
+    --primary-color: #d65a31;
+    --dark-color: #000033;
+    --light-color: #eeeeee;
+}

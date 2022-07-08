@@ -8,18 +8,18 @@ input[type="email"] {
     width: 30%;
     padding: .25rem;
     font-size: 1.25rem;
-    background-color: #000033;
-    color: #eeeeee;
+    background-color: var(--dark-color);
+    color: var(--light-color);
     border: 0;
-    border-bottom: solid 1px #eeeeee;
+    border-bottom: solid 1px var(--light-color);
 }
 /* con el focus le aplicas lo que quieras cuando pinchas en el recuadro, ene este caso que no le salga un borde */
 input[type="text"]:focus,
 input[type="email"]:focus {
     outline: none;
-    border-bottom: solid 2px #d65a31;
-    color: #000033;
-    background-color: #eeeeee;
+    border-bottom: solid 2px var(--primary-color);
+    color: var(--dark-color);
+    background-color: var(--light-color);
 }
 
 /* aprovechamos selector de elementos adyacentes */
@@ -31,19 +31,19 @@ textarea {
     width: 30%;
     padding: .25rem;
     font-size: 1.25rem;
-    background-color: #000033;
-    color: #eeeeee;
+    background-color: var(--dark-color);
+    color: var(--light-color);
     border: 0;
-    border-bottom: solid 1px eeeeee;
-    border-left: solid 1px eeeeee;
+    border-bottom: solid 1px var(--light-color);
+    border-left: solid 1px var(--light-color);
 }
 
 textarea:focus {
     outline: none;
-    color: #000033;
-    background-color: #eeeeee;
-    border-left: solid 5px #d65a31;
-    border-top: solid 1px #d65a31;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    border-left: solid 5px var(--primary-color);
+    border-top: solid 1px var(--primary-color);
 }
 
 input[type="submit"],
@@ -52,8 +52,8 @@ input[type="button"],
 button {
     font-size: 1.25rem;
     padding: .25rem 2rem;
-    background-color: #d65a31;
+    background-color: var(--primary-color);
     border: solid 1px #a62a01;
     color: white;
-    font-weight: 700;
+    font-weight: 700 ;
 }
