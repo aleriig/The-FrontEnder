@@ -3,10 +3,7 @@
 }
 /* el before y el after se utilizan para que los diferentes navegadores no tengan problemas con nuestras medidas de caja */
 /* content-box (suma contenido, padding y border a las medidas que nosotros establecemos) mientras border-box (a unas medidas dadas de caja: resta el contenido, padding y border). Normalmente se usa border-box*/
-*, *::before, *::after {
-    box-sizing: border-box;
 
-}
 
 body {
     background-color: black;

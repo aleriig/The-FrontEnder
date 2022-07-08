@@ -1,0 +1,10 @@
+/* preparar el nav para centrar estilos, independientemente del navegador, creando un archivo reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
