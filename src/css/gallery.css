@@ -1,3 +1,9 @@
+.gallery-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
 .gallery-grid .gallery-item img {
     filter: grayscale(100%);
     width: 500px;
