@@ -1,0 +1,10 @@
+.gallery-grid .gallery-item img {
+    filter: grayscale(100%);
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+/* con esto conseguimos quitar el filtro anterior al pasar nuestro cursor por encima */
+.gallery-grid .gallery-item:hover img {
+    filter: none;
+}
