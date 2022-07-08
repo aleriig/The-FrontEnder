@@ -1,0 +1,7 @@
+.header {
+    height: 100vh;
+    padding: 50px;
+    /* para poner la foto como fondo, hacia abajo,centrada y que no se repita */
+    background-color: url('../img/bg.jpeg') bottom center no-repeat;
+    background-size: cover;
+}

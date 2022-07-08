@@ -1,8 +1,15 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
 .navbar .logo {
     float: left;
     height: 50px;
     line-height: 50px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .navbar-list {
