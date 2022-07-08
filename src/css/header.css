@@ -1,16 +1,32 @@
 .header {
     height: 100vh;
-    padding: 60px;
+    padding: 50px;
     /* para poner la foto como fondo, hacia abajo,centrada y que no se repita */
-    background: url('../img/bg.jpeg') bottom center;
+    background: url('../img/bg.jpeg') center
+    center no-repeat;
     background-size: cover;
     position: relative;
+    z-index: 30;
+}
+
+/* hacemos que la imagen tenga opacidad en todo el header. Ponemos una capa pixelada por encima y esto nos permitirá difuminar la imagen sin perder calidad*/
+.header-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .5;
+    background: url('../img/simple-pattern-overlay.png') top left repeat;
+    z-index: 100; 
 }
 
 .header-content {
     position: absolute;
     /* border: solid 1px green; */
     padding: 2rem;
+    z-index: 32;
 }
 
 .header-content > h1 {
@@ -28,14 +44,4 @@
     padding: 2rem;
     text-shadow: black 1px 1px;
 }
-/* hacemos que la imagen tenga opacidad en todo el header. Ponemos una capa pixelada por encima y esto nos permitirá comprimir el archivo sin perder calidad*/
-.header-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: black;
-    opacity: .5;
-    background: url('../img/simple-pattern-overlay.png') top left repeat:
-}
+
