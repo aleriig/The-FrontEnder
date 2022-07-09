@@ -1,0 +1,31 @@
+* {
+    font-family: 'Cairo', Arial, Helvetica, sans-serif
+}
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+main {
+    margin: 2rem;
+}
+
+.error-code {
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 8rem;
+    line-height: 8rem;
+    margin: 0;
+    color: #333333;
+    /* kerning */
+    letter-spacing: -1.4rem;
+}
+/* "inherit" crea una herencia en este caso tipografia del padre*/
+.error-code span {
+    font-family: inherit;
+    /* ponemos borde a cada numero */
+    text-shadow: -5px 0 0 #ffffff;
+}
