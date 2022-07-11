@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-    position: absolute;
+    position: relative;
     top: 2rem;
     left: .5rem;
     font-size: 1.5rem;
@@ -68,4 +68,27 @@ main {
 #subscribe-form .email {
     margin-right: 1rem;
     width: 40%;
+}
+
+/* responsive mediante media queries, haciendo que se quedsa en el medio */
+@media all and (min-width: 480px) {
+    .wrapper {
+        max-width: var(--content-max-width);
+        margin: 0 auto;
+    }
+    /* a partir de 480px pasa de un grid(2,2) a uno de (4,1) */
+    .countdown {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .header {
+        max-width: var(--content-max-width);
+        position: relative;
+    }
+
+    .header .logo {
+        position: relative;
+        top: 2rem;
+        left: .5rem;
+    }
 }
